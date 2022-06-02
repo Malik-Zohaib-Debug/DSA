@@ -11,7 +11,7 @@ int main(){
 		    1
 		  3 2
 		6 5 4
-	  9 8 7 5
+	      9 8 7 5
 	*/
 	
 	while(row <= n){
@@ -38,7 +38,7 @@ int main(){
 		    *
 		  * *
 		* * *
-	  * * * *
+	      * * * *
 	while(row <= n){
 		int space = n - row;
 		while(space){
