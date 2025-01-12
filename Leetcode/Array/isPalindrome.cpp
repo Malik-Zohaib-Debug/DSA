@@ -17,7 +17,12 @@ bool isPalindrome(string word){
 int main(){
 	string word = "civic";
 	bool status = isPalindrome(word);
-	cout << status;
+	
+	if(status == 1){
+		cout << word << " is palindrome";
+	} else {
+		cout << word << " not palindrome";
+	}
 	
 	return 0;
 }
