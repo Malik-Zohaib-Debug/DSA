@@ -14,8 +14,8 @@ int main(){
 	int arr[] = {2,4,1,0,-1,3};
 	int size = sizeof(arr)/sizeof(int);
 	
-	cout << linearSearch(arr, size, 3);
+	cout << "Element Found At Index: " << linearSearch(arr, size, 3);
 	
 	
 	return 0;
-}
+} 
